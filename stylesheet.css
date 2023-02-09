@@ -536,7 +536,8 @@ h1, h2 {
 .center {  
   margin: 0;
   position: absolute;
-  bottom: 100%;
+  bottom: 8px;
   left: 50%;
+  font-family: sans-serif;
   transform: translate(-50%, -50%);
 }
