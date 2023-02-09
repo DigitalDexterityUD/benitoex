@@ -39,9 +39,9 @@ a {
     transform: translateX(-50%);
 }
 
-section {
+/*section {
   padding: 20px;
-}
+}*/
 
 .hero {
   font-size: clamp(40px, 10vw, 100px);
