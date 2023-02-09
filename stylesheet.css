@@ -20,16 +20,12 @@ body {
 
 }
 
-h1,
-h2 {
+h1, h2 {
   margin: 0;
 }
 
 a {
     font-family: "Press Start 2P", cursive;
-    font-weight: bold;
-    color: #a5a5ff;
-    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
     text-align: center; 
     position: absolute; 
     bottom: 8px; 
@@ -521,18 +517,6 @@ a {
   text-align: center;
 }
 
-.environment {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.5;
-  filter: blur(5px);
-    center no-repeat;
-  background-size: cover;
-}
-
 @keyframes pulsate {
     
   100% {
@@ -562,4 +546,13 @@ a {
     0 0 140px #f09;
 
   }
+}
+
+
+.center {  
+  margin: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
