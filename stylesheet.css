@@ -536,7 +536,17 @@ h1, h2 {
 .center {  
   margin: 0;
   position: absolute;
-  bottom: 98;
+  bottom: 8px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.discord {
+  font-size: 8px;
+  line-height: 1;
+  display: inline-block;
+  color: #fff;
+  z-index: 2;
+  letter-spacing: 2px;
+  filter: drop-shadow(0 1px 3px);
 }
