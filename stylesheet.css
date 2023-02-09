@@ -542,11 +542,11 @@ h1, h2 {
 }
 
 .discord {
-  font-size: 8px;
+  font-size: 24px;
   line-height: 1;
   display: inline-block;
   color: #fff;
   z-index: 2;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   filter: drop-shadow(0 1px 3px);
 }
